@@ -1,0 +1,43 @@
+ {% extends "base.html" %}
+ {% block content %}
+ <div class="text-center">
+    <h3>NORTHAFRICANCAR</h3>
+    <p>
+        realiser votre reservation ici
+    </p>
+ </div>
+
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-6 shadow">
+            <h3>etape de reservation</h3>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputtext">entrer le nom du modele</label>
+                  <select>
+                    <option value="option1">SportCar</option>
+                    <option value="option2">FamillyCar</option>
+                    <option value="option3">RaceCar</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputtext">enter la couleur</label>
+                  <select>
+                    <option value="option1">Rouge</option>
+                    <option value="option2">Jaune</option>
+                    <option value="option3">Bleu</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputtext">entrer votre identifiant</label>
+                    <input type="text" class="form-control" id="exampleInputtext">
+                  </div>
+                <button type="submit" class="btn btn-primary">Enregistrer</button>
+              </form>
+        </div>
+    </div>
+</div>
+
+
+
+ {% endblock %}

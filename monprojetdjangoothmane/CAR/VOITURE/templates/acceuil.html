@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="text-center">
+    <h3>NORTHAFRICANCAR</h3>
+    <p>
+        NorthAfricaCars votre destination de location et vente de vehicule de toute categorie. parcourez notre selection de vehicules de haute gamme et trouvez celui qui correspond parfaitement a votre besoin.Que vous cherchiez une voiture pour escapade en ville ,une voiture pour voyage en famille ou des vehicule de travaux comme des camions ou mini-bus,nous avons tout ce qu'il vous faut.Chez NorthAfricaCars,nous mettons l'accent sur la qualite,la fiabilite et le service exceptionel.notre equipe devouee est là pour vous guidez a chaque etape de votre exprerience,de la selection de votre vehicule ideale a la reservation de votre date de location ou d'achat si c'est le cas. Profitez bien de votre experience dans le cadre de notre compagnie!
+    </p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.NDOdMC_KsCMy-cpI6kRK5wHaEW&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SPORT CAR</h5>
+                  <p class="card-text">Une voiture de sport c est bien , mais une lamborghini c est mieux !</p>
+                  <a href="{% url 'reserver' %}" class="btn btn-primary">Commandez!</a>
+                </div>
+            </div>    
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.XL0eSVAxrSPo-QPmrJDy1QHaEK&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">FAMILLY CAR</h5>
+                  <p class="card-text">Rien ne vaux une balade en famille , AUDI est là pour vous offrire une voiture sportif et familiale</p>
+                  <a href="{% url 'reserver' %}" class="btn btn-primary">Commandez!</a>
+                </div>
+            </div>    
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.zRmpjD_EOxCboGENHfjxHAHaEc&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RACE CAR</h5>
+                  <p class="card-text">Vivez des moments agreable au volant de ce monstre</p>
+                  <a href="{% url 'reserver' %}" class="btn btn-primary">Commandez!</a>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div><br><br>
+
+<div class="text-center">
+    <p>
+        Explorez notre site web des maintenant pour decouvrire nos offre speciales,nos promotions et nos excluvite. Reservez votre vehicule des maintenent et vivez une experience conduite inoubliable.
+    </p>
+</div>
+
+  
+{% endblock %}
